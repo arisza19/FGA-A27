@@ -185,15 +185,6 @@ body {
     background-image: url(nara.jpg);
     background-size: cover;
   }
-
-  footer img {
-    width: 125px;
-  }
-  
-  footer p {
-    color: #ffffff;
-    font-size: 12px;
-  }
   
   footer {
     padding-top: 30px;
@@ -204,7 +195,6 @@ body {
   .container-footer {
     width: 100%;
     padding: 0 15px;
-    margin-left: 5px;
   }
 
   .container-footer h1 {
