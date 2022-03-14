@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+body {
+    margin: 0;
+    font-family: "Tahoma";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container-1 {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #bccdd4;
+    height: 200px;
+  }
+
+  .container-1 img{
+    width: 50%;
+    margin-top: 50px;
+  }
+
+  .anim {
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+    0%   {left:-800px; top:0px;}
+    100%  {left:1500px; top:0px;}
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    /* Ubah position ke fixed, dan top ke 0 */
+    position: fixed;
+    top: 0;
+    /* Ubah z-index ke 10 */
+    z-index: 10;
+  }
+  
+  .header-left h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 12px;
+  }
+
+  .header-left span {
+    color: red;
+    margin-right: 5px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(233, 233, 233, 0.5);
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: rgb(46, 45, 45);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+
+  .fa.fa-bars {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+    margin-top: 65px;
+    display: flex;
+  }
+
+  .kotak-main {
+      height: 380px;
+      width: 50%;
+  }
+
+  .kotak-main.satu {
+      background-color: rgba(236, 104, 192, 0.4);
+      padding-left: 40px;
+      padding-right: 40px;
+      box-sizing: border-box;
+      overflow: hidden;
+  }
+
+  .kotak-main.satu h1 {
+    color: black;
+    font-size: 34px;
+  }
+
+  .kotak-main.dua h1 {
+    display: none;
+  }
+
+  .kotak-main.dua p {
+    display: none;
+  }
+
+  .kotak-main.dua {
+    background-image: url(hirayama.jpg);
+    background-size: cover;
+  }
+
+  .hotspot {
+    width: 100%;
+    padding: 20px 15px;
+    margin: 0 auto;
+  }
+
+  .tempat {
+      width: 100%;
+      display: flex;
+      margin: 20px auto;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  .tempat-img {
+      display: flex;
+      margin: 5px;
+      width: 25%;
+      height: 380px;
+  }
+
+  .tempat-img span{
+      margin: auto;
+  }
+
+  .tempat-img p {
+      color: white;
+      font-weight: 800;
+      font-size: 36px;
+  }
+
+  .tempat-img.tokyo {
+      background-image: url(tokyo.jpg);
+      background-size: cover;
+  }
+
+  .tempat-img.hokkaido {
+    background-image: url(hokkaido.jpg);
+    background-size: cover;
+  }
+
+  .tempat-img.kyoto {
+    background-image: url(kyoto.jpg);
+    background-size: cover;
+  }
+
+  .tempat-img.osaka {
+    background-image: url(osaka.jpg);
+    background-size: cover;
+  }
+
+  .tempat-img.fukuoka {
+    background-image: url(fukuoka.jpg);
+    background-size: cover;
+  }
+
+  .tempat-img.nara {
+    background-image: url(nara.jpg);
+    background-size: cover;
+  }
+
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #ffffff;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(202, 202, 204);
+  }
+
+  .container-footer {
+    width: 100%;
+    padding: 0 15px;
+    margin-left: 5px;
+  }
+
+  .container-footer h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 12px;
+  }
+
+  .container-footer span {
+    color: red;
+    margin-right: 5px;
+  }
