@@ -101,10 +101,11 @@ body {
 
   .kotak-main.satu {
       background-color: rgba(236, 104, 192, 0.4);
+      padding-top: 60px;
       padding-left: 40px;
       padding-right: 40px;
       box-sizing: border-box;
-      overflow: hidden;
+      
   }
 
   .kotak-main.satu h1 {
