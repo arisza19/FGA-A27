@@ -1,0 +1,71 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .kotak-main.satu h1 {
+    font-size: 28px;
+  }
+
+  .kotak-main.satu p {
+    font-size: 14px;
+  }
+
+  }
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .header-right a{
+    display: none;
+    }
+
+    .fa.fa-bars {
+      display: block;
+      line-height: 65px;
+      font-size: 28px;
+    }
+
+    .kotak-main.satu {
+        display: none;
+    }
+
+    .kotak-main.dua {
+        width: 100%;
+        height: max-content;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: white;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    .kotak-main.dua h1 {
+        display: block;
+        font-size: 30px;
+      }
+    
+      .kotak-main.dua p {
+        display: block;
+        font-size: 15px;
+      }
+
+      .container-1 {
+        height: max-content;
+      }
+
+      .container-1 img{
+        width: 100%;
+      }
+
+      .anim {
+        position: relative;
+        animation-name: example;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+      }
+    
+      @keyframes example {
+        0%   {left:-480px; top:0px;}
+        100%  {left:520px; top:0px;}
+      }
+
+      .tempat-img {
+        width: 100%;
+    }
+  }
