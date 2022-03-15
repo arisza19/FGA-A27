@@ -201,11 +201,11 @@ label #menu-close {
 
     .isi-footer {
       width: 25%;
-      color: white;
     }
 
     .isi-footer h1 {
       font-size: 24px;
+      color: white;
       font-weight: lighter;
       margin-bottom: 20px;
     }
@@ -447,8 +447,7 @@ label #menu-close {
 
     .isi-footer h1 {
       font-size: 18px;
-      font-weight: lighter;
-      margin-bottom: 20px;
+      font-weight: 100;
     }
 
     .isi-footer a {
