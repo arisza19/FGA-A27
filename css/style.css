@@ -420,7 +420,7 @@ label #menu-close {
     .footer-wrap {
         margin-top: 10px;
         width: 100%;
-        padding: 20px;
+        padding: 10px;
       }
 
     .footer-section h1 {
@@ -438,11 +438,11 @@ label #menu-close {
       }
 
       .footer-bottom a {
-        font-size: 11px;
+        font-size: 10px;
       }
       
       .first-box {
-        margin-left: 5px;
+        margin-left: 1px;
       }
       
 }
