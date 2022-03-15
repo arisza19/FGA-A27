@@ -420,7 +420,7 @@ label #menu-close {
     .footer-wrap {
         margin-top: 10px;
         width: 100%;
-        padding: 10px;
+        
       }
 
     .footer-section h1 {
@@ -434,7 +434,7 @@ label #menu-close {
         color: rgb(121, 118, 118);
         display: block;
         text-decoration: none;
-        padding: 4px 0px;
+        padding: 4px 0;
       }
 
       .footer-bottom a {
