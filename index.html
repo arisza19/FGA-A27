@@ -1,69 +1,140 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GO TO JAPAN!</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/style.css">
+    <title>GO TO JAPAN! - Travel ke Seluruh Bumi Matahari Terbit</title>
+</head>
+<body>
     <header>
-        <div class="container">
-          <div class="header-left">
-            <h1><span class="fa fa-circle"></span>GO TO JAPAN!</h1>
-          </div>
-          <div class="header-right">
-            <a href="#">Destinasi</a>
-            <a href="#">Layanan</a>
-            <a href="#" class="login">Tentang kami</a>
-            <span class="fa fa-bars" id="menu-bar"></span>
-          </div>
-        </div>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fa fa-bars" id="menu-bar"></i>
+            <i class="fa fa-times" id="menu-close"></i>
+        </label>
+        <h4><i class="fa fa-circle logo"></i>GO TO JAPAN!</h4>
+        <ul class="menu">
+            <li><a href="#">Destinasi</a></li>
+            <li><a href="#">Layanan</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+        </ul>
     </header>
-    <div class="main">
-        <div class="kotak-main satu">
-            <h1>AYO! Liburan ke Jepang.</h1>
-            <p>Bersama keluarga tercinta ayo kelilingi negeri matahari terbit. Sudah siapkah kamu untuk menjelajahi negeri yang indah? Ayo!!! Ajak keluarga dan teman-temanmu untuk berlibur ke negeri sakura. Banyak pilihan destinasi menarik yang bisa kalian kunjungi. Mulai dari pusat keramaian Kota Tokyo, wisata pegunungan ke Gunung Fuji, melihat satwa lucu di Prefektur Nara, dan masih banyak lagi.</p>
+
+    <div class="top-wrapper">
+        <div class="main">
+            <h1>AYO!! Liburan ke Jepang<span>.</span></h1>
+            <p>Jelajahi Jepang Bersama Kami Dengan Harga Terjangkau.</p>
+            <p>Dapatkan promo menarik khusus pada bulan ini</p>
+            <p>Liburan bersama keluarga dan pasangan anda</p>
+            <p>Akan menjadi sangat menyenangkan.</p>
         </div>
-        <div class="kotak-main dua">
-            <h1>AYO! Liburan ke Jepang.</h1>
-            <p>Bersama keluarga tercinta ayo kelilingi negeri matahari terbit. Sudah siapkah kamu untuk menjelajahi negeri yang indah? Ayo!!! Ajak keluarga dan teman-temanmu untuk berlibur ke negeri sakura. Banyak pilihan destinasi menarik yang bisa kalian kunjungi. Mulai dari pusat keramaian Kota Tokyo, wisata pegunungan ke Gunung Fuji, melihat satwa lucu di Prefektur Nara, dan masih banyak lagi.</p>
+        <div class="container-gambar">
+            <img class="foto" src="img/hirayama.jpg" alt="">
+        </div>
+        <div class="clear">
         </div>
     </div>
+
     <div class="container-1">
         <div class="anim">
-            <img src="Hokkaido-shinkansen.png" alt="">
+            <img src="anim/Hokkaido-shinkansen.png" alt="">
         </div>
     </div>
-    <div class="hotspot">
-        <h1>TEMPAT POPULER</h1>
-        <div class="tempat">
-            <div class="tempat-img tokyo">
-                <span><p>Tokyo</p></span>
+
+    <!-- body -->
+    <div class="body-wrapper">
+        <div class="container-image">
+          <div class="content">
+            <h1>Tempat Populer</h1>             
+          </div>
+          <div class="image">
+            <div class="image-icon">
+              <img src="img/tokyo.jpg" alt="tokyo">
+              <h2>Tokyo</h2>
             </div>
-            <div class="tempat-img hokkaido">
-                <span><p>Hokkaido</p></span>
+          </div>
+          <div class="image">
+            <div class="image-icon">
+              <img src="img/hokkaido.jpg" alt="hokkaido">
+              <h2>Hokkaido</h2>
             </div>
-            <div class="tempat-img kyoto">
-                <span><p>Kyoto</p></span>
+          </div>
+          <div class="image">
+            <div class="image-icon">
+              <img src="img/kyoto.jpg" alt="kyoto">
+              <h2>Kyoto</h2>
             </div>
-            <div class="tempat-img osaka">
-                <span><p>Osaka</p></span>
+          </div>
+          <div class="image">
+            <div class="image-icon">
+              <img src="img/osaka.jpg" alt="osaka">
+              <h2>Osaka</h2>
             </div>
-            <div class="tempat-img fukuoka">
-                <span><p>Fukuoka</p></span>
+          </div>
+          <div class="image">
+            <div class="image-icon">
+              <img src="img/fukuoka.jpg" alt="fukuoka">
+              <h2>Fukuoka</h2>
             </div>
-            <div class="tempat-img nara">
-                <span><p>Nara</p></span>
+          </div>
+          <div class="image">
+            <div class="image-icon">
+              <img src="img/nara.jpg" alt="nara">
+              <h2>Nara</h2>
             </div>
+          </div>
+        <div class="clear"></div>
         </div>
     </div>
-    <footer>
-        <div class="container-footer">
-            <h1><span class="fa fa-circle"></span>GO TO JAPAN!</h1>
-        </div>
-      </footer>
-  </body>
+  <!-- akhir body -->
+
+  <div class="footer-wrap">
+    <div class="footer-wrap-1">
+      <div class="footer-section">
+        <h1>Tautan Berguna</h1>
+        <a href="#">Pengunjung Pertama</a>
+        <a href="#">Jepang Wifi gratis</a>
+        <a href="#">Jepang Cari Hotel & Ryokan</a>
+        <a href="#">Cuaca di Jepang</a>
+        <a href="#">Jepang Tour & Aktivitas</a>
+        <a href="#">Tanya Jawab (FAQ)</a>
+      </div>
+      <div class="footer-section">
+        <h1>Tentang Go To Japan</h1>
+        <a href="#">Tentang Kami</a>
+        <a href="#">Hubungi Kami</a>
+        <a href="#">Kebijakan Privasi</a>
+        <a href="#">Kebijakan Cookie</a>
+        <a href="#">Syarat Penggunaan</a>
+        <a href="#">Tautan</a>
+      </div>
+      <div class="footer-section">
+        <h1>Situs Go To Japan Terkait</h1>
+        <a href="#">Japan Convention Bureau</a>
+        <a href="#">Pusat Media Online Jepang</a>
+      </div>
+    </div>
+    <div class="footer-wrap-2">
+      <div class="line"></div>
+      <div class="icon">
+        <a class="tombol" href="#"><i class="fa fa-facebook-f"></i></a>
+        <a class="tombol" href="#"><i class="fa fa-twitter"></i></a>
+        <a class="tombol" href="#"><i class="fa fa-instagram"></i></a>
+        <a class="tombol" href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="first-box">
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+    <div class="last-box">
+      <a href="#">&copy; Copyright 2022. Go To Japan</a>
+    </div>
+  </div>
+</body>
 </html>
