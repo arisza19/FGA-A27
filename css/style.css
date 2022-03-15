@@ -437,8 +437,13 @@ label #menu-close {
         padding: 4px 0;
       }
 
+      .footer-bottom {
+        padding: 20px;
+      }
+
       .footer-bottom a {
         font-size: 10px;
+        margin-left: 0;
       }
       
       .first-box {
