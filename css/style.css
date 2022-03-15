@@ -420,7 +420,11 @@ label #menu-close {
     .footer-wrap {
         margin-top: 10px;
         width: 100%;
-        
+        padding: 20px;
+      }
+
+      .footer-section:last-of-type {
+        width: 100%;
       }
 
     .footer-section h1 {
@@ -434,23 +438,17 @@ label #menu-close {
         color: rgb(121, 118, 118);
         display: block;
         text-decoration: none;
-        padding: 4px 0;
-      }
-
-      .footer-bottom {
-        padding: 20px;
+        padding: 4px 0px;
       }
 
       .footer-bottom a {
-        font-size: 10px;
-        margin-left: 0;
+        font-size: 11px;
       }
       
       .first-box {
-        margin-left: 0;
+        margin-left: 5px;
       }
       .last-box {
-        margin-right: 0;
+        margin-right: 5px;
       }
-      
 }
